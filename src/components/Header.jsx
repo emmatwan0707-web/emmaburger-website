@@ -3,7 +3,7 @@ import Logo from '../assets/burger.png';
 
 const Header = () => {
     return (
-        <header className="w-full bg-white text-black shadow-md">
+        <header className="w-full bg-white text-black">
 
             <nav className="flex items-center h-20 px-8 w-full max-w-7xl mx-auto">
 

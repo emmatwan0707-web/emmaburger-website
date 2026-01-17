@@ -8,4 +8,10 @@ export default {
         extend: {},
     },
     plugins: [],
+    extend: {
+        fontFamily: {
+            title: ['"Baloo 2"', 'cursive'],
+        },
+    }
+
 }

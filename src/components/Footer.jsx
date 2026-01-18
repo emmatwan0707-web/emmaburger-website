@@ -37,12 +37,12 @@ const Footer = () => {
                         <ul className="space-y-4 text-sm text-gray-300">
                             <li className="hover:text-white cursor-pointer">Online Ordering</li>
                             <li className="hover:text-white cursor-pointer">Locations</li>
-                            <li className="hover:text-white cursor-pointer">Shack Truck</li>
+                            <li className="hover:text-white cursor-pointer">Emma Truck</li>
                             <li className="hover:text-white cursor-pointer">
                                 Nutrition & Allergen Info
                             </li>
                             <li className="hover:text-white cursor-pointer">Gift Cards</li>
-                            <li className="hover:text-white cursor-pointer">Shack Store</li>
+                            <li className="hover:text-white cursor-pointer">Emma Store</li>
                         </ul>
                     </div>
 
@@ -113,11 +113,7 @@ const Footer = () => {
                     </div>
 
                     <p>
-                        ©2004–2026 Emma Burger. All Rights Reserved.
-                    </p>
-                    <p>
-                        Some information on this site may vary slightly by location
-                        and in stadium, event venues and international locations.
+                        ©2025–2026 Emma Burger. All Rights Reserved.
                     </p>
                 </div>
 

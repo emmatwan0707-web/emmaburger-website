@@ -10,7 +10,17 @@ const Header = ({ onNavClick }) => {
             <header className="w-full bg-white text-black sticky top-0 z-50 shadow-sm">
                 <nav className="flex items-center h-20 px-8 w-full max-w-7xl mx-auto">
                     {/* Logo */}
-                    <div className="flex-1 cursor-pointer">
+
+                    <div
+                        className="flex-1 cursor-pointer"
+                        onClick={() => {
+                            // 使用 scrollTo 配合 behavior: "smooth"
+                            window.scrollTo({
+                                top: 0,
+                                behavior: "smooth"
+                            });
+                        }}
+                    >
                         <img src={Logo} alt="logo" className="w-10 h-10" />
                     </div>
 
